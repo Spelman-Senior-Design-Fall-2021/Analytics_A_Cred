@@ -1,0 +1,24 @@
+Imports needed:
+
+import nltk
+from nltk.corpus import stopwords
+import string
+import pandas as pd
+from sklearn.cluster import KMeans
+from sklearn.feature_extraction.text import TfidfVectorizer
+from spacy.lang.en import English
+import spacy
+import csv
+
+
+
+Required:
+pip install spacy
+python -m spacy download en_core_web_sm
+
+
+
+May need:
+
+nltk.download('punkt')
+nltk.download('stopwords')
